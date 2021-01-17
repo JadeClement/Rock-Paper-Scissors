@@ -38,30 +38,30 @@ function show_decisions(userChoice, computerChoice){
 
   if (userChoice === "r"){
     console.log(userChoice)
-    userDecision.src="images/rock.png";
+    userDecision.src="rock.png";
   }
 
   else if (userChoice === "p"){
     console.log(userChoice)
-    userDecision.src="images/paper.png";
+    userDecision.src="paper.png";
   }
   else{
     console.log(userChoice)
-    userDecision.src="images/scissors.png";
+    userDecision.src="scissors.png";
   }
 
   if (computerChoice === "r"){
     console.log(computerChoice)
-    compDecision.src="images/rock.png";
+    compDecision.src="rock.png";
   }
 
   else if (computerChoice === "p"){
     console.log(computerChoice)
-    compDecision.src="images/paper.png";
+    compDecision.src="paper.png";
   }
   else{
     console.log(computerChoice)
-    compDecision.src="images/scissors.png";
+    compDecision.src="scissors.png";
   }
 
 
